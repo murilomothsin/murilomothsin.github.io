@@ -10,17 +10,52 @@
     position: relative;
 }
 
-.site-title {
+/**
+ * Site Left
+ */
+.left-side {
+  border: 1px solid $grey-color-light;
+  float: left;
+  width: 20%;
+  margin-right: 3%;
+  margin-left: 2%;
+  padding: 1%;
+
+  a.site-title {
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
-
     &,
     &:visited {
         color: $grey-color-dark;
     }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+
+  .post-list {
+    margin-left: 0;
+    list-style: none;
+    display: block;
+    line-height: 20px;
+
+    > li {
+      margin-bottom: $spacing-unit;
+    }
+
+    .post-meta {
+      font-size: $super-small-font-size;
+      color: $grey-color;
+    }
+
+    .post-link {
+      font-size: 20px;
+    }
+  }
+
 }
 
 .site-nav {
@@ -168,27 +203,6 @@
 .page-heading {
     font-size: 20px;
 }
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
 
 /**
  * Posts

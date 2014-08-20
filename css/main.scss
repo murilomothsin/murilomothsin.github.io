@@ -9,6 +9,7 @@
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
+$super-small-font-size:  $base-font-size * 0.6;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -34,16 +35,16 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+      "base",
+      "layout",
+      "syntax-highlighting"
 ;
