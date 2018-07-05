@@ -1,3 +1,11 @@
+remote_theme: chesterhow/tale
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+
 # Site settings
 title: Murilo Mothsin
 email: murilo.mothsin@gmail.com
