@@ -6,13 +6,29 @@ plugins:
   - jekyll-paginate
   - jekyll-remote-theme
 
+# Author
+author:
+  name:         Murilo Mothsin
+  url:          https://murilomothsin.github.io/
+  email:        murilo.mothsin@gmail.com
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jemoji #Uncomment this to allow emoji in your post
+
 # Site settings
 title: Murilo Mothsin
 email: murilo.mothsin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Articles about software development, developer's daily routines and all shiny new tech.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://murilomothsin.github.io/" # the base hostname & protocol for your site
+url: "https://murilomothsin.github.io/" # the base hostname & protocol for your site
 twitter_username: Murilo_Mothsin
 github_username:  murilomothsin
 

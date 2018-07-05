@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2017-08-19 00:21:31
+categories: Misc
+---
+
+Welcome to my personal blog. Here, I’ll expose my arguments and articles about technology, programming and a life as a programmer.
+
+I code to live for over 6 years, with 4+ years working with Ruby on Rails. My focus is to develop systems with real impact in people life, making the difference through software and tech.
+
+I already worked with PHP, HTML, CSS, JS, Ruby on Rails, AngularJS, NodeJS, Express, MongoDB, MySQL, PostgreSQL, CakePHP, React, Kubernetes, docker and so on. But I believe that regardless the language or framework, the important to the project's success is thinking a lot about how to do it and if I need to do something, probaly someone already do and maybe do it better than me, so research.
+
+
+If, for some reason, you want to get in touch with me, my e-mail is murilo.mothsin@gmail.com and you can tweet me at [@Murilo_Mothsin]
+
+[@Murilo_Mothsin]: https://twitter.com/Murilo_Mothsin
